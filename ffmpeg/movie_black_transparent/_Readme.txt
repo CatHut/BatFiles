@@ -10,3 +10,7 @@ ProRes
 VP9
 コンテナ:WebM
 コーデック:VP9
+
+
+tga_bmp_convert_2_png.bat
+TGAまたはBMPを含むフォルダをDDすると画像をPNGに変換する
