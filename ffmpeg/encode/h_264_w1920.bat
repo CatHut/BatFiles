@@ -3,7 +3,7 @@ rem 入力ファイル名を取得
 set input=%~1
 
 rem 出力ファイル名を生成
-set output=%~n1_1920w.mp4
+set "output=%~dp1%~n1_output_1920w.mp4"
 
 rem ffmpegを使って動画の横幅を1920にリサイズし、h.264コーデックでエンコード
 ffmpeg -i %input% ^
